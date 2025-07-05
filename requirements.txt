@@ -1,0 +1,26 @@
+# SQL-to-Insights Pipeline — Dependencies
+# Python 3.10+ benötigt
+#
+# Installation: pip install -r requirements.txt
+# Dev-Install:  pip install -r requirements.txt -r requirements-dev.txt
+
+# ─── Core Data Stack ──────────────────────────────────────────
+pandas>=2.0.0          # DataFrame-Operationen, Pivot, Groupby
+numpy>=1.24.0          # Numerische Berechnungen, Polyfit, etc.
+
+# ─── Visualization ────────────────────────────────────────────
+matplotlib>=3.7.0      # Basis-Charting-Engine
+seaborn>=0.12.0        # Statistik-Charts, Heatmap
+
+# ─── Excel Export ─────────────────────────────────────────────
+openpyxl>=3.1.0        # Excel-Dateien schreiben + formatieren
+
+# ─── AI Integration ───────────────────────────────────────────
+openai>=1.0.0          # OpenAI GPT API Client (optional, Fallback vorhanden)
+
+# ─── Config & Utils ───────────────────────────────────────────
+python-dotenv>=1.0.0   # .env Datei für API-Keys laden
+
+# ─── Hinweis: SQLite ist Python-Standardbibliothek ───────────
+# sqlite3 ist in Python eingebettet, kein separater Install nötig.
+# Das ist einer der Gründe warum SQLite ideal für Portfolio-Projekte ist.
