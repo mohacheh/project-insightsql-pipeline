@@ -1,0 +1,101 @@
+═════════════════════════════════════════════════════════════════
+RETAILCO GMBH — SALES PERFORMANCE REPORT
+Zeitraum: 2023-01 bis 2024-12
+Generiert: 2026-02-13 15:29:41
+═════════════════════════════════════════════════════════════════
+
+EXECUTIVE SUMMARY
+─────────────────────────────────────────────────────────────────
+Gesamtumsatz (Total):    €17,136,417.63
+Umsatz (letzte 12M):     €10,358,647.50  (+52.8% YoY)
+Bruttomarge:                     63.3%
+Ø MoM-Wachstum (6M):           +27.9%
+Gesamtbestellungen:              8,548
+Aktive Kunden:                     500
+Ø Bestellwert:           €    1,707.65
+
+REGIONALE PERFORMANCE
+─────────────────────────────────────────────────────────────────
+Beste Region:    West                 €   4,898,938
+Schwächste Region: Ost                €   3,938,119
+Bester Kanal:    B2B
+
+PRODUKT-PERFORMANCE (Top 10 nach Umsatz)
+─────────────────────────────────────────────────────────────────
+  Produkt                      Kategorie            Umsatz  Marge  ABC
+  ---------------------------- -------------- ------------  -----  ---
+  Laptop Pro 15                Electronics    € 3,146,814   40.0%  A
+  Standing Desk                Furniture      € 2,514,436   58.5%  A
+  Monitor 27 4K                Electronics    € 1,815,132   48.2%  A
+  Office Chair Ergo            Furniture      € 1,501,655   59.9%  A
+  Data Analytics Suite         Software       € 1,252,742   97.0%  A
+  Robot Vacuum                 Appliances     €   911,909   59.9%  A
+  Noise Cancel Headset         Electronics    €   896,676   68.2%  A
+  Design Bundle                Software       €   838,122   96.7%  A
+  Air Purifier                 Appliances     €   591,872   63.9%  A
+  Bookshelf Nordic             Furniture      €   573,558   62.3%  B
+
+  Legende: A=Top 80% Umsatz | B=Nächste 15% | C=Letzte 5%
+
+KUNDEN-SEGMENTIERUNG (RFM-Analyse)
+─────────────────────────────────────────────────────────────────
+  Champions-Anteil: 19.2% aller Kunden
+  At-Risk-Kunden:   38 (Churn-Risiko)
+
+  Needs Attention       :  156 Kunden (31.2%)
+  Loyal Customers       :  112 Kunden (22.4%)
+  Champions             :   96 Kunden (19.2%)
+  Potential Loyalists   :   60 Kunden (12.0%)
+  At Risk               :   38 Kunden ( 7.6%)
+  Recent Customers      :   38 Kunden ( 7.6%)
+
+UMSATZ-HIGHLIGHTS
+─────────────────────────────────────────────────────────────────
+Top-3-Monate:
+  November 2024      €   2,183,819  (+134.2% MoM)
+  December 2024      €   1,426,459  (-34.7% MoM)
+  November 2023      €   1,167,876  (+64.1% MoM)
+
+Flop-3-Monate:
+  March 2023         €     418,397  (+27.5% MoM)
+  February 2023      €     328,118  (+1.8% MoM)
+  January 2023       €     322,392  (+nan% MoM)
+
+═════════════════════════════════════════════════════════════════
+KI-GENERIERTE INSIGHTS & EMPFEHLUNGEN
+─────────────────────────────────────────────────────────────────
+
+## KEY FINDINGS
+• **Wachstumsdynamik stark positiv**: Mit +52.8% YoY-Wachstum übertrifft das Unternehmen die typische Einzelhandels-Wachstumsrate von 4-6%. Der Ø MoM-Trend (+27.9%) deutet auf nachhaltigen Momentum-Aufbau hin — besonders im Q4-getriebenen Saisongeschäft.
+
+• **Regionale Performance-Divergenz**: West führt mit €4,898,938 deutlich vor Ost (€3,938,119) — eine Lücke von €960,819 (+24%). Dies signalisiert ungenutzte Wachstumspotenziale in der Ost-Region durch gezielte Ressourcenallokation.
+
+• **Kunden-Portfolio-Qualität**: 19.2% Champions-Anteil im RFM-Modell zeigt solide Kundenbindung. 38 Kunden im At-Risk-Segment (keine Aktivität >60 Tage) repräsentieren direktes Umsatz-Wiedergewinnungspotenzial durch Reengagement-Kampagnen.
+
+## CRITICAL ISSUES
+• **Margen-Monitoring**: Bruttomarge von 63.3% ist gesund. Produktmix-Verschiebungen hin zu margenstarken Software/Digitalprodukten könnten die Gesamtprofitabilität um 2-4 Prozentpunkte verbessern.
+
+## RECOMMENDED ACTIONS
+1. **[Sofort — 0-30 Tage]** Reengagement-Kampagne für 38 At-Risk-Kunden: Personalisierte Angebote basierend auf Kaufhistorie. Erwarteter Recovery-Rate: 15-25% bei €12,978 potenziellem Umsatz.
+
+2. **[Kurzfristig — 30-90 Tage]** Ost-Region: Vertriebsressourcen aufstocken und Best Practices aus West transferieren. Ziel: Schließung von 25% der Performance-Lücke bis Q2.
+
+3. **[Strategisch — 3-6 Monate]** Produktmix-Optimierung: A-Klasse-Produkte (Top-Umsatz, Top-Marge) konsequent priorisieren. "Laptop Pro 15" als Anker-Produkt für Cross-Selling-Kampagnen nutzen.
+
+## OUTLOOK
+Bei Fortsetzung des +27.9% MoM-Trends und erfolgreicher Umsetzung der regionalen Expansion ist ein Jahresumsatz von €18,850,059 (+10%) für das Folgejahr realistisch — vorausgesetzt, die saisonale Q4-Stärke kann durch B2B-Kanal-Ausbau verstetigt werden.
+
+---
+*[HINWEIS: Insights im Fallback-Modus generiert. Für KI-generierte Analyse: OPENAI_API_KEY in .env setzen und ai.fallback_mode=False in config.py]*
+
+═════════════════════════════════════════════════════════════════
+TECHNISCHE DETAILS
+─────────────────────────────────────────────────────────────────
+Datenquelle:    SQLite Datenbank (sales.db)
+Analysemethode: Python / Pandas / RFM-Modell
+Visualisierung: Matplotlib / Seaborn (5 Charts)
+KI-Modell:      OpenAI GPT / Fallback-Modus
+Pipeline-Stack: Python 3.10+ | Pandas | NumPy
+═════════════════════════════════════════════════════════════════
+Ende des Reports — RetailCo GmbH | 2026-02-13
+═════════════════════════════════════════════════════════════════
