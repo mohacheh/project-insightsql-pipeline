@@ -46,59 +46,48 @@ sql_insights_pipeline/
 ├── reporting/             # Excel- & Text-Generierung
 └── output/                # Zielordner für Reports & Charts
 
+```text
 
-🚀 Quickstart
-1. Installation
-Bash
+# 📊 SQL-to-Insights Pipeline
+
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![OpenAI](https://img.shields.io/badge/AI-OpenAI%20GPT--4o-green.svg)](https://openai.com/)
+
+**Vollautomatisierte Daten-Pipeline**: Von der SQL-Abfrage über komplexe Pandas-Analysen bis hin zu KI-generierten Executive Reports in unter 10 Sekunden.
+
+Dieses Projekt demonstriert die Symbiose aus **Data Engineering**, **Business Intelligence (BI)** und **Künstlicher Intelligenz**. Es transformiert rohe Transaktionsdaten in strategische Entscheidungsgrundlagen.
+
+---
+
+## 🏗 Architektur & Workflow
+
+[Image of a data pipeline flowchart showing stages from SQL Extraction to Pandas Analysis to AI Insights Generation]
+
+Die Pipeline folgt einer modularen 5-Phasen-Architektur:
+
+1.  **Setup:** Initialisierung einer SQLite-DB mit synthetischen Daten (500+ Kunden, 2 Jahre Historie).
+2.  **Extract:** Ausführung von 9 optimierten SQL-Queries (Joins, Window Functions).
+3.  **Analyze:** Statistische Auswertung (RFM, ABC, BCG) mittels Pandas & NumPy.
+4.  **Visualize:** Erstellung von 5 High-Res Charts im Corporate-Design (Matplotlib/Seaborn).
+5.  **AI Insights:** GPT-4o fungiert als "Senior Business Analyst" und interpretiert die Ergebnisse.
+
+---
+
+## 🚀 Quickstart
+
+### 1. Installation
+```bash
+# Repository klonen
 git clone [https://github.com/dein-nutzername/sql-insights-pipeline.git](https://github.com/dein-nutzername/sql-insights-pipeline.git)
 cd sql_insights_pipeline
+
+# Virtual Environment erstellen & aktivieren
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+
+# Abhängigkeiten installieren
 pip install -r requirements.txt
-2. Ausführung
-Die Pipeline bietet einen Demo-Modus, der auch ohne OpenAI API-Key funktioniert:
-
-Bash
-# Startet die komplette Pipeline (mit Mock-Insights falls kein Key vorhanden)
-python main.py --demo
-
-# Für volle KI-Power: .env Datei erstellen und API-Key eintragen
-# python main.py
-3. CLI Optionen
---force-recreate-db: Löscht und erstellt die Beispieldatenbank neu.
-
---skip-charts: Überspringt die Bildgenerierung für schnellere Testläufe.
-
---log-level DEBUG: Zeigt detaillierte Hintergrundprozesse.
-
-📈 Analyse-Methoden (Business Logic)
-Das Tool nutzt anerkannte Frameworks des Controllings:
-
-RFM-Analyse: Segmentierung nach Recency, Frequency, Monetary (Champions vs. At-Risk).
-
-ABC-Analyse: Pareto-Prinzip (80/20 Regel) für die Produktpriorisierung.
-
-BCG-Matrix: Portfolio-Analyse nach Marktwachstum und relativem Marktanteil.
-
-YoY/MoM Growth: Messung der Wachstumsdynamik unter Berücksichtigung von Saisonalität.
-
-📄 Output Beispiele
-Nach dem Run finden Sie im /output Ordner:
-
-Executive Dashboard: KPI-Karten & Umsatztrends.
-
-Product Matrix: BCG-Bubble-Charts.
-
-Sales Report (Excel): Vollständig formatierte Daten für Stakeholder.
-
-AI Insights: Ein generierter Text-Report mit konkreten Handlungsempfehlungen.
-
-Beispiel Insight: "Der Champions-Anteil von 19,2% ist stabil, jedoch zeigt die Region Ost einen Rückgang im MoM-Wachstum von 12%. Empfehlung: Re-Engagement Kampagne für Segment 'At Risk'."
-
-🛠 Tech Stack
-Core: Python 3.10+
-
-Data: Pandas, NumPy, SQLite
 
 Viz: Matplotlib, Seaborn
 
