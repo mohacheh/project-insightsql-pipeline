@@ -105,5 +105,3 @@ Viz: Matplotlib, Seaborn
 AI: OpenAI API (GPT-4o)
 
 Reporting: Openpyxl (Excel), Python-Dotenv
-
-Dieses Projekt dient als Portfolio-Arbeit zur Demonstration von Full-Stack Data-Capabilities.
